@@ -30,11 +30,11 @@ if (app.documents.length > 0) {
   var setFontSize = 4;
   var defaultFontSize = $.getenv("Specify_defaultFontSize") ? convertToUnits($.getenv("Specify_defaultFontSize")).toFixed(3) : setFontSize;
   // Colors
-  var setRed = 36;
+  var setRed = 204;
   var defaultColorRed = $.getenv("Specify_defaultColorRed") ? $.getenv("Specify_defaultColorRed") : setRed;
-  var setGreen = 151;
+  var setGreen = 34;
   var defaultColorGreen = $.getenv("Specify_defaultColorGreen") ? $.getenv("Specify_defaultColorGreen") : setGreen;
-  var setBlue = 227;
+  var setBlue = 41;
   var defaultColorBlue = $.getenv("Specify_defaultColorBlue") ? $.getenv("Specify_defaultColorBlue") : setBlue;
   // Decimals
   var setDecimals = 2;
@@ -781,7 +781,7 @@ if (app.documents.length > 0) {
     path.filled = false;
     path.stroked = true;
     path.strokeColor = color;
-    path.strokeWidth = 2.0;
+    path.strokeWidth = 5.0;
     return path;
   };
 
