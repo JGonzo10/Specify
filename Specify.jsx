@@ -27,7 +27,7 @@ if (app.documents.length > 0) {
   var setUnits = true;
   var defaultUnits = $.getenv("Specify_defaultUnits") ? convertToBoolean($.getenv("Specify_defaultUnits")) : setUnits;
   // Font Size
-  var setFontSize = 8;
+  var setFontSize = 4;
   var defaultFontSize = $.getenv("Specify_defaultFontSize") ? convertToUnits($.getenv("Specify_defaultFontSize")).toFixed(3) : setFontSize;
   // Colors
   var setRed = 36;
@@ -781,7 +781,7 @@ if (app.documents.length > 0) {
     path.filled = false;
     path.stroked = true;
     path.strokeColor = color;
-    path.strokeWidth = 0.5;
+    path.strokeWidth = 2.0;
     return path;
   };
 
