@@ -37,7 +37,7 @@ if (app.documents.length > 0) {
   var setBlue = 41;
   var defaultColorBlue = $.getenv("Specify_defaultColorBlue") ? $.getenv("Specify_defaultColorBlue") : setBlue;
   // Decimals
-  var setDecimals = 2;
+  var setDecimals = 3;
   var defaultDecimals = $.getenv("Specify_defaultDecimals") ? $.getenv("Specify_defaultDecimals") : setDecimals;
   // Scale
   var setScale = 0;
